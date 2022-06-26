@@ -1,0 +1,16 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8082
+
+workflow:
+  airflow:
+    host: 47.105.133.255
+    username: root
+    password: WZ()(ssczLaHzgCkj)ycZwp<lDV6[P
+    datasource:
+      url: jdbc:mysql://47.105.133.193:3306/airflow?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+      username: root
+      password: Bdilab@1308
+      driver-class-name: com.mysql.jdbc.Driver
+    dags:
+      path: "/root/airflow/dags/"
